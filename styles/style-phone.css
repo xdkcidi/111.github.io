@@ -1,0 +1,128 @@
+@media (max-width: 375px) {
+    h1{
+        font-family: 'Courier New', monospace;
+        font-size: 60px;
+        line-height: 60px;
+        padding-left: 35%;
+        padding-top: 20%;
+    }
+    h2{
+        font-size: 45px;
+        line-height: 55px;
+        font-family: 'Courier New', monospace;
+    }
+    h3{
+        font-size: 35px;
+        line-height: 45px;
+        font-family: 'Courier New', monospace;
+    }
+    p{
+        font-size: 22px;
+        line-height: 24px;
+        font-family: 'Courier New';
+    }
+    .h{
+      padding: 0px 0px 0px 0px;
+      height: 3000px;
+      background-image: url(../images/background1.png);
+      background-size: 100%;
+    }
+    
+    .wrapper{
+      position: relative;
+      margin-left: 45%;
+    }
+    a{
+      display: flex;
+      width: 200px;
+      height: 40px;
+      line-height: 40px;
+      font-size: 24px;
+      text-align: center;
+      text-decoration: none;
+      color: #333;
+      border: 2px solid #333;
+      letter-spacing: 2px;
+      position: relative;
+      transition: all .35s;
+    }
+    a span{
+      position: relative;
+      z-index: 2;
+    }
+    a:after{
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      width: 0;
+      height: 100%;
+      background: #ff003b;
+      transition: all .35s;
+    }
+    a:hover{
+      color: #fff;
+    }
+    a:hover:after{
+      width: 100%;
+    }
+
+    .ii{
+        width: 100%;
+        padding: 100px 0px 50px 75px;
+        columns: 2;
+    }
+    .ii-h2{
+        padding-right: 300px;
+        padding-left: 50px;
+    }
+    .ii-p{
+        font-size: 22px;
+        line-height: 24px;
+        padding-right: 300px;
+        padding-left: 50px;
+        font-family: 'Courier New';
+    }
+    .superman{
+        height: 90%;
+        width: 90%;
+    }
+    
+    .footer{
+        width: 100%;
+    }
+    .foot-div{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row; 
+    }
+    .foot-block1{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 350px;
+        margin-left: 0px;
+    }
+    .foot-h3{
+        text-align: center;
+        font-size: 28px;
+        font-weight: 800;
+    }
+    .foot-img{
+        width: 350px;
+        height: 300px;
+        margin-bottom: 10px;
+    }
+    .foot-p{
+        text-align: right;
+    }
+    .start{
+        text-decoration: none;
+        color: black;
+    }
+    .start:hover{
+        text-decoration: underline;
+        color: rgb(130, 3, 3);
+    }
+}
