@@ -1,5 +1,4 @@
-h1{
-        font-family: 'Courier New', monospace;
+ h1{
         font-size: 40px;
         line-height: 50px;
         padding-left: 5%;
@@ -89,8 +88,12 @@ h1{
       align-items: center;  
       width: 90%;
       height: 90%;
-      margin-top: 30px;
-      margin-left: 35px;
+      margin-top: 10px;
+      margin-left: 25px;
+      transition: transform 0.3s ease-in-out;
+    }
+    .superman:hover {
+        transform: scale(1.2);
     }
     .footer{
         width: 100%;
@@ -127,3 +130,4 @@ h1{
         text-decoration: underline;
         color: rgb(130, 3, 3);
     }
+    
