@@ -1,4 +1,4 @@
- h1{
+    h1{
         font-size: 40px;
         line-height: 50px;
         padding-left: 5%;
@@ -7,12 +7,10 @@
     h2{
         font-size: 35px;
         line-height: 45px;
-        font-family: 'Courier New', monospace;
     }
     p{
         font-size: 22px;
         line-height: 24px;
-        font-family: 'Courier New';
     }
     .h{
       padding: 0px 0px 0px 0px;
@@ -23,7 +21,7 @@
     }
     .main-text{
       background-color: #fff;
-      padding: 0px 10px 0px 10px;
+      padding: 20px 10px 0px 10px;
     }
     .wrapper{
       position: relative;
@@ -82,14 +80,13 @@
         line-height: 24px;
         padding-right: 0px;
         padding-left: 0px;
-        font-family: 'Courier New';
     }
     .superman{
       align-items: center;  
       width: 90%;
       height: 90%;
       margin-top: 10px;
-      margin-left: 25px;
+      margin-left: 20px;
       transition: transform 0.3s ease-in-out;
     }
     .superman:hover {
