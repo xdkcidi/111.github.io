@@ -16,7 +16,7 @@ h1{
         font-family: 'Courier New';
     }
     .h{
-      padding: 0px 10px 0px 10px;
+      padding: 0px 0px 0px 0px;
       margin-top: 0px;
       height: 300px;
       background-image: url(../images/background1.png);
@@ -28,7 +28,7 @@ h1{
     }
     .wrapper{
       position: relative;
-      margin-left: 7%;
+      margin-left: 10%;
       margin-top: 10%;
     }
     .wrapper a{
@@ -74,8 +74,9 @@ h1{
         padding: 0px 0px 50px 0px;
     }
     .ii-h2{
-        padding-right: 0px;
         padding-left: 0px;
+        text-align: center;
+
     }
     .ii-p{
         font-size: 22px;
@@ -88,6 +89,8 @@ h1{
       align-items: center;  
       width: 90%;
       height: 90%;
+      margin-top: 30px;
+      margin-left: 35px;
     }
     .footer{
         width: 100%;
@@ -102,8 +105,6 @@ h1{
         justify-content: flex-start;
         flex-direction: row;
         flex-wrap: wrap;
-        width: 320px;
-        margin-left: 50px;
     }
     .foot-h3{
         text-align: center;
