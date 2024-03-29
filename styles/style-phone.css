@@ -1,17 +1,12 @@
 @media (max-width: 375px) {
     h1{
         font-family: 'Courier New', monospace;
-        font-size: 60px;
-        line-height: 60px;
-        padding-left: 35%;
-        padding-top: 20%;
+        font-size: 40px;
+        line-height: 50px;
+        padding-left: 4%;
+        padding-top: 15%;
     }
     h2{
-        font-size: 45px;
-        line-height: 55px;
-        font-family: 'Courier New', monospace;
-    }
-    h3{
         font-size: 35px;
         line-height: 45px;
         font-family: 'Courier New', monospace;
@@ -22,17 +17,21 @@
         font-family: 'Courier New';
     }
     .h{
-      padding: 0px 0px 0px 0px;
-      height: 3000px;
+      padding: 0px 10px 0px 10px;
+      height: 300px;
       background-image: url(../images/background1.png);
       background-size: 100%;
     }
-    
+    .main-text{
+      background-color: #fff;
+      padding: 0px 10px 0px 10px;
+    }
     .wrapper{
       position: relative;
-      margin-left: 45%;
+      margin-left: 7%;
+      margin-top: 10%;
     }
-    a{
+    .wrapper a{
       display: flex;
       width: 200px;
       height: 40px;
@@ -46,11 +45,13 @@
       position: relative;
       transition: all .35s;
     }
-    a span{
+    
+    .wrapper a span{
       position: relative;
       z-index: 2;
     }
-    a:after{
+    
+    .wrapper a:after{
       position: absolute;
       content: "";
       top: 0;
@@ -60,34 +61,33 @@
       background: #ff003b;
       transition: all .35s;
     }
-    a:hover{
+    
+    .wrapper a:hover{
       color: #fff;
     }
-    a:hover:after{
+    
+    .wrapper a:hover:after{
       width: 100%;
     }
-
     .ii{
         width: 100%;
-        padding: 100px 0px 50px 75px;
-        columns: 2;
+        padding: 0px 0px 50px 0px;
     }
     .ii-h2{
-        padding-right: 300px;
-        padding-left: 50px;
+        padding-right: 0px;
+        padding-left: 0px;
     }
     .ii-p{
         font-size: 22px;
         line-height: 24px;
-        padding-right: 300px;
-        padding-left: 50px;
+        padding-right: 0px;
+        padding-left: 0px;
         font-family: 'Courier New';
     }
     .superman{
-        height: 90%;
-        width: 90%;
+      width: 45%;
+      height: 47%;
     }
-    
     .footer{
         width: 100%;
     }
@@ -101,21 +101,21 @@
         justify-content: flex-start;
         flex-direction: row;
         flex-wrap: wrap;
-        width: 350px;
-        margin-left: 0px;
+        width: 220px;
+        margin-left: 50px;
     }
     .foot-h3{
         text-align: center;
-        font-size: 28px;
+        font-size: 38px;
         font-weight: 800;
     }
     .foot-img{
-        width: 350px;
-        height: 300px;
-        margin-bottom: 10px;
+        width: 220px;
+        height: 80px;
     }
     .foot-p{
         text-align: right;
+        margin-top: 20px;
     }
     .start{
         text-decoration: none;
