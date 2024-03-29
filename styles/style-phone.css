@@ -1,4 +1,4 @@
-@media (max-width: 425px) {
+
     h1{
         font-family: 'Courier New', monospace;
         font-size: 40px;
@@ -126,4 +126,3 @@
         text-decoration: underline;
         color: rgb(130, 3, 3);
     }
-}
